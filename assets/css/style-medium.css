@@ -59,4 +59,16 @@
       width: 90px;
     }
   }
+  footer {
+    .container {
+      font-size: 20px;
+      margin: 0 10px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+
+      .col:first-child {
+        grid-column: 1 / 5;
+      }
+    }
+  }
 }

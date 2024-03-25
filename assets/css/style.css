@@ -439,7 +439,45 @@ header {
   font-size: 16px;
   padding: 16px 32px;
 }
+footer {
+  .container {
+    display: grid;
+  }
 
+  img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    color: var(--brand-primary);
+    margin-bottom: 20px;
+  }
+
+  p.about {
+    margin-right: 50px;
+  }
+
+  p.contact {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-black);
+
+    &:hover {
+      color: var(--brand-primary);
+    }
+  }
+}
 
 /* Desktop */
 @media screen and (min-width: 1350px) {
