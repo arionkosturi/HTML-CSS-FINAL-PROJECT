@@ -63,21 +63,7 @@
     }
   }
 
-  /* Trending Responsive */
-  .trending-section {
-    padding: 2%;
-    .other-trending {
-      padding: 30px 30px;
-      flex-basis: 100%;
-    }
-    .trending-article {
-      flex-basis: 100%;
-    }
-    p {
-      padding-bottom: 5px;
-      padding-left: 5px;
-    }
-  }
+
 
   footer {
     .container {
