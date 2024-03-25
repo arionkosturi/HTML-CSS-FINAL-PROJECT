@@ -1,7 +1,7 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
   .container {
-    margin: 0 10px;
+    margin: 0 15px;
     width: 90% !important;
   }
 
