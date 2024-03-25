@@ -8,7 +8,8 @@
   header {
     position: sticky;
     height: auto;
-    padding: 10px 0px;
+    margin: 0;
+    padding: 0px 0px;
     z-index: 999999;
     .container {
       flex-direction: column;
@@ -72,6 +73,75 @@
     }
   }
 
+  .subheader {
+    display: none;
+  }
 
+  .main-news {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* padding: 0px 1px; */
+    align-items: center;
+    .flex {
+      flex-direction: column;
+    }
+    .left {
+      margin-left: 12%;
+      width: 82%;
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      margin-left: 14px;
+      align-items: center;
+    }
+  }
+  /* More Articles aka. Real News Real Time */
+  .more-articles {
+    margin: 0;
+    padding: 0;
 
+    .more-articles-single {
+      padding: 10px;
+      flex-direction: column;
+      width: 100%;
+      align-items: left;
+      text-align: left;
+      h5 {
+        margin: 2px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      p {
+        margin: 0;
+        font-size: 12px;
+      }
+
+      img {
+        margin: 0px;
+        padding: 0px;
+        width: 50%;
+        border-radius: 5px;
+      }
+    }
+  }
+  /* Red Line */
+  .red-line {
+    width: 70%;
+    border-bottom: 4px solid red;
+    /* margin-left: 10%; */
+  }
+  /* Slogan */
+  .slogan {
+    margin: 10px 0px;
+    background-color: var(--brand-hard-gray);
+    .red-line-small {
+      width: 90px;
+    }
+  }
 }
