@@ -1,0 +1,77 @@
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 10px;
+    width: 90% !important;
+  }
+
+  header {
+    position: sticky;
+    height: auto;
+    padding: 10px 0px;
+    z-index: 999999;
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      .logo {
+        padding: 10px;
+        .fa-newspaper {
+          font-size: 20px;
+        }
+        p {
+          margin-left: 3px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    /* Search Bar */
+    .search {
+      position: absolute;
+      top: 14px;
+      right: 100px;
+      width: 40%;
+    }
+    nav {
+      display: none;
+      margin-top: 20px;
+
+      ul {
+        flex-direction: column;
+      }
+    }
+
+    .menu-toggler-icon {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 18px;
+      width: 22px;
+      height: 22px;
+    }
+
+    .submenu-plate {
+      position: relative;
+    }
+
+    #menu-toggler {
+      display: block;
+      position: absolute;
+      top: 24px;
+      right: 20px;
+      background-color: rgba(45, 45, 45, 0);
+      border: none;
+      outline: none;
+      appearance: none;
+      width: 32px;
+      height: 32px;
+    }
+
+    #menu-toggler:checked + nav {
+      display: block;
+    }
+  }
+
+
+
+}
