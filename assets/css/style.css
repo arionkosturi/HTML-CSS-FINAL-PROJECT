@@ -134,6 +134,7 @@ header {
       font-size: 16px;
       padding: 0 15px;
       outline: 20px;
+      color: var(--brand-primary);
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
       background: var(--brand-gray);
