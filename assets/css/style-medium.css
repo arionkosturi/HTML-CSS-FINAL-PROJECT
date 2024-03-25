@@ -1,20 +1,15 @@
+/* Medium Sized Devices */
 @media screen and (min-width: 768px) {
+  /* Body */
   body {
     margin: 0 60px;
   }
+  /* Container */
   .container {
     margin: 0px;
     padding: 0;
   }
-
-  .highlited-news {
-    background-color: var(--brand-gray);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    column-gap: 50px;
-    row-gap: 80px;
-  }
-
+  /* Main News */
   .main-news {
     display: flex;
     flex-direction: column;
@@ -55,6 +50,7 @@
       }
     }
   }
+  /* Slogan */
   .slogan {
     margin: 10px 0px;
     background-color: var(--brand-hard-gray);
@@ -62,9 +58,7 @@
       width: 90px;
     }
   }
-
-
-
+  /* Footer */
   footer {
     .container {
       font-size: 20px;

@@ -32,6 +32,11 @@ hr {
 .flex {
   display: flex;
 }
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .center {
   align-items: center;
   justify-content: center;
@@ -84,6 +89,7 @@ a {
   }
 }
 
+/* Header */
 header {
   display: flex;
   background: var(--header-sidebar-white);
@@ -223,7 +229,7 @@ header {
     display: none;
   }
 }
-
+/* Subheader */
 .subheader {
   background-color: var(--brand-gray);
 
@@ -322,44 +328,40 @@ header {
 /* Trending Section */
 .trending-section {
   padding: 1% 1%;
-}
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.trending-article {
-  flex-basis: 66%;
-}
-.other-trending {
-  flex-basis: 32%;
-}
-.trending-article img {
-  width: 100%;
-}
-.trending-article .article-info {
-  font-size: 14px;
-  p {
-    color: var(--grey-text);
+  .trending-article {
+    flex-basis: 66%;
   }
-}
-/* Other Trending Article */
-.other-trending-article {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 5px;
-  img {
+  .other-trending {
+    flex-basis: 32%;
+  }
+  .trending-article img {
     width: 100%;
-    border-radius: 5px;
   }
-  .thumbnail {
-    padding: 5px;
-    flex-basis: 49%;
+  .trending-article .article-info {
+    font-size: 14px;
+    p {
+      color: var(--grey-text);
+    }
   }
-  .details {
-    flex-basis: 49%;
+  /* Other Trending Article */
+  .other-trending-article {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .thumbnail {
+      padding: 5px;
+      flex-basis: 49%;
+    }
+    .details {
+      flex-basis: 49%;
+    }
   }
 }
+
 /* Categories */
 .category {
   cursor: pointer;
@@ -384,10 +386,11 @@ header {
   }
   &:hover {
     .middle {
-      opacity: 1;}
-      .image {
-        opacity: 0.5;
-      }
+      opacity: 1;
+    }
+    .image {
+      opacity: 0.5;
+    }
   }
   .text {
     background-color: var(--brand-primary);
@@ -396,7 +399,7 @@ header {
     padding: 16px 32px;
   }
 }
-
+/* Footer */
 footer {
   .container {
     display: grid;
@@ -437,6 +440,7 @@ footer {
   }
 }
 
+/* Custom ScrollBar  */
 /* Scrollbar width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -445,12 +449,10 @@ footer {
 ::-webkit-scrollbar-track {
   background: #dbd2f7;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--brand-primary);
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-color);
