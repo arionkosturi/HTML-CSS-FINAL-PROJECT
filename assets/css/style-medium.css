@@ -2,62 +2,61 @@
   .container {
     margin: 0px;
     padding: 0;
-  
   }
 
-    .highlited-news {
-      background-color: var(--brand-gray);
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      column-gap: 50px;
-      row-gap: 80px;
+  .highlited-news {
+    background-color: var(--brand-gray);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 50px;
+    row-gap: 80px;
+  }
+
+  .main-news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 30px;
+    .flex {
+      flex-direction: row;
     }
-  
-    .main-news {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 0px 30px;
-      .flex {
-        flex-direction: row;
+    .left {
+      width: 70%;
+      position: relative;
+      img {
+        width: 100%;
       }
-      .left {
-        width: 70%;
-        position: relative;
+      .bottom-left {
+        position: absolute;
+        padding: 60px;
+        left: 0px;
+      }
+    }
+    .right {
+      width: 25%;
+
+      .title {
+        display: flex;
+        width: 80%;
+        height: 80px;
+        padding: 8px;
+        text-align: left;
+        p {
+          font-size: 14px;
+
+          overflow: hidden;
+        }
         img {
-          width: 100%;
-        }
-        .bottom-left {
-          position: absolute;
-          padding: 60px;
-          left: 0px;
-        }
-      }
-      .right {
-        width: 25%;
-  
-        .title {
-          display: flex;
-          width: 80%;
-          height: 80px;
-          padding: 8px;
-          text-align: left;
-          p {
-            font-size: 14px;
-  
-            overflow: hidden;
-          }
-          img {
-            width: 30%;
-          }
+          width: 30%;
         }
       }
     }
-    .slogan {
-      margin: 10px 0px;
-      background-color: var(--brand-hard-gray);
-      .red-line-small {
-        width: 90px;
-      }
+  }
+  .slogan {
+    margin: 10px 0px;
+    background-color: var(--brand-hard-gray);
+    .red-line-small {
+      width: 90px;
     }
+  }
 }

@@ -258,57 +258,58 @@ header {
       color: var(--brand-gray);
       background: var(--brand-primary);
     }
-  }}
+  }
+}
 
-  /* Main News */
-  .main-news {
-    margin: 0;
-  
-    /* border: 1px solid var(--brand-hard-gray); */
-    .left {
-      width: 50%;
-      background-color: var(--header-sidebar-white);
-      padding-top: 10px;
-      margin-left: 0;
-      position: relative;
-      text-align: left;
-      color: white;
-      .bottom-left {
-        background-color: rgba(91, 7, 237, 0.5);
-        position: absolute;
-        padding: 20px;
-        bottom: 10px;
-        left: 0px;
-        &:hover {
-          cursor: pointer;
-          background: var(--brand-primary);
-        }
+/* Main News */
+.main-news {
+  margin: 0;
+
+  /* border: 1px solid var(--brand-hard-gray); */
+  .left {
+    width: 50%;
+    background-color: var(--header-sidebar-white);
+    padding-top: 10px;
+    margin-left: 0;
+    position: relative;
+    text-align: left;
+    color: white;
+    .bottom-left {
+      background-color: rgba(91, 7, 237, 0.5);
+      position: absolute;
+      padding: 20px;
+      bottom: 10px;
+      left: 0px;
+      &:hover {
+        cursor: pointer;
+        background: var(--brand-primary);
       }
     }
-    .right {
-      width: 30%;
-  
-      .title {
-        margin-left: 10px;
-        margin-top: 8px;
-        height: 100px;
-        width: 81%;
-        border-radius: 0px;
-        padding: 10px;
-  
-        p {
-          padding: 15px;
-        }
-        img {
-          width: 120px;
-          border-radius: 5px;
-        }
+  }
+  .right {
+    width: 30%;
+
+    .title {
+      margin-left: 10px;
+      margin-top: 8px;
+      height: 100px;
+      width: 81%;
+      border-radius: 0px;
+      padding: 10px;
+
+      p {
+        padding: 15px;
+      }
+      img {
+        width: 120px;
+        border-radius: 5px;
       }
     }
-    img {
-      width: 100%;
-    }
-  }  
+  }
+  img {
+    width: 100%;
+  }
+}
 /* More Articles aka. Real News Real Time*/
 .more-articles {
   display: grid;
@@ -399,7 +400,6 @@ header {
   }
 }
 
-
 /* Desktop */
 @media screen and (min-width: 1350px) {
   .container {
@@ -418,9 +418,7 @@ header {
     }
   }
 
- 
-    .subheader {
-      width: 100%;
-    }
-  
+  .subheader {
+    width: 100%;
+  }
 }
