@@ -69,6 +69,12 @@
       .col:first-child {
         grid-column: 1 / 5;
       }
+
+      i {
+        color: var(--brand-primary);
+        padding-top: 20px;
+        font-size: 20px;
+      }
     }
   }
 }
