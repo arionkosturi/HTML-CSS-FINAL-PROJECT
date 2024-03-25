@@ -478,23 +478,3 @@ footer {
     }
   }
 }
-
-/* Desktop */
-@media screen and (min-width: 1350px) {
-
-  header {
-    .logo {
-      height: 50px;
-    }
-
-    nav > ul {
-      li {
-        margin: 10px;
-      }
-    }
-  }
-
-  .subheader {
-    width: 100%;
-  }
-}

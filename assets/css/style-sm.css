@@ -9,7 +9,7 @@
     position: sticky;
     height: auto;
     margin: 0;
-    padding: 0px 0px;
+    padding: 10px 0px;
     z-index: 999999;
     .container {
       flex-direction: column;
@@ -29,7 +29,7 @@
     /* Search Bar */
     .search {
       position: absolute;
-      top: 14px;
+      top: 15px;
       right: 100px;
       width: 40%;
     }
