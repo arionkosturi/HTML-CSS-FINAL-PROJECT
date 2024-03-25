@@ -2,12 +2,23 @@
 @media screen and (min-width: 768px) {
   /* Body */
   body {
-    margin: 0 60px;
+    margin: 0 20px;
   }
-  /* Container */
-  .container {
-    margin: 0px;
-    padding: 0;
+  header {
+    .container {
+    .logo {
+      i {
+        font-size: 26px;
+      }
+      p {
+        margin-left: 4px;
+        font-size: 26px;
+      }
+    }
+    .search {
+      width: 25%;
+    }
+  }
   }
   /* Main News */
   .main-news {

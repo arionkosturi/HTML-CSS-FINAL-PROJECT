@@ -94,26 +94,23 @@ header {
   display: flex;
   background: var(--header-sidebar-white);
   height: 60px;
-  /* margin: 0 80px; */
   position: sticky;
   top: 0;
   z-index: 9999999;
   .container {
     display: flex;
-    width: 100vw;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     .fa-newspaper {
-      font-size: 28px;
       color: var(--brand-primary);
-      p {
-        font-family: Biryani;
-        font-weight: 800;
-        font-size: 28px;
-        display: inline;
-        color: black;
-        /* margin-right: 110px; */
-      }
+     
+    }
+    p {
+      font-family: Biryani;
+      font-weight: 800;
+      display: inline;
+      color: black;
     }
   }
   /* Search Bar */
