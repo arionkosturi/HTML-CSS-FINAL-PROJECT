@@ -225,6 +225,9 @@ header {
     display: none;
   }
 }
+nav li:has(ul) > a::after {
+  content: '▼';
+}
 /* Subheader */
 .subheader {
   background-color: var(--brand-gray);
