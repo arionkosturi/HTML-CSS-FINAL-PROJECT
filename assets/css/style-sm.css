@@ -135,7 +135,6 @@
   .red-line {
     width: 70%;
     border-bottom: 4px solid red;
-    /* margin-left: 10%; */
   }
   /* Slogan */
   .slogan {
@@ -187,7 +186,6 @@
       .col3 {
         grid-column: 2/2;
       }
-
       .col5 {
         grid-column: 2/2;
       }
