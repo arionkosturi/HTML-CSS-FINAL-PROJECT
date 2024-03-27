@@ -1,1 +1,1 @@
-#TO-DO: Fix image width for SAFARI
+# TO-DO: Fix image width for SAFARI
